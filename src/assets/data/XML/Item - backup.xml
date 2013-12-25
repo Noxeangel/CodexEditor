@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<!-- CONSUMABLES = POTIONS -->
+	
+	<CONSUMABLE ID="K001">
+		<NAME>Potion de Vie</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>250</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Life_Icon</ICON>
+	</CONSUMABLE>
+	<CONSUMABLE ID="K002">
+		<NAME>Potion de Mana</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>100</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Mana_Icon</ICON>
+	</CONSUMABLE>
+	
+	<!-- WEAPONS = SWORDS -->
+	
+	<WEAPON ID="W001">
+		<NAME>Epée 1</NAME>
+		<RESERVED>GENERAL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>10</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Sword1_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="W002">
+		<NAME>Epée 2</NAME>
+		<RESERVED>GENERAL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>30</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Sword2_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="W003">
+		<NAME>Epée 3</NAME>
+		<RESERVED>GENERAL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>100</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Sword3_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="W004">
+		<NAME>Epée 4</NAME>
+		<RESERVED>GENERAL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>150</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Sword4_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="W005">
+		<NAME>Epée 5</NAME>
+		<RESERVED>GENERAL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>255</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Sword5_Icon</ICON>
+	</WEAPON>
+	
+	<!-- WEAPONS = DAGGERS -->
+	
+	<WEAPON ID="D001">
+		<NAME>Dague 1</NAME>
+		<RESERVED>ASSASSIN</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>10</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Dagger1_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="D002">
+		<NAME>Dague 2</NAME>
+		<RESERVED>ASSASSIN</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>30</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Dagger2_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="D003">
+		<NAME>Dague 3</NAME>
+		<RESERVED>ASSASSIN</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>100</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Dagger3_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="D004">
+		<NAME>Dague 4</NAME>
+		<RESERVED>ASSASSIN</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>150</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Dagger4_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="D005">
+		<NAME>Dague 5</NAME>
+		<RESERVED>ASSASSIN</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>255</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Dagger5_Icon</ICON>
+	</WEAPON>
+	
+	<!-- WEAPONS = STAFF -->
+	
+	<WEAPON ID="S001">
+		<NAME>Sceptre 1</NAME>
+		<RESERVED>PRIEST</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>10</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Priest1_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="S002">
+		<NAME>Sceptre 2</NAME>
+		<RESERVED>PRIEST</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>30</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Priest2_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="S003">
+		<NAME>Sceptre 3</NAME>
+		<RESERVED>PRIEST</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>100</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Priest3_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="S004">
+		<NAME>Sceptre 4</NAME>
+		<RESERVED>PRIEST</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>150</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Priest4_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="S005">
+		<NAME>Sceptre 5</NAME>
+		<RESERVED>PRIEST</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>255</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Priest5_Icon</ICON>
+	</WEAPON>
+	
+	<!-- WEAPONS = BOOKS -->
+	
+	<WEAPON ID="B001">
+		<NAME>Grimoire 1</NAME>
+		<RESERVED>WIZZARD</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>10</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Mage1_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="B002">
+		<NAME>Grimoire 2</NAME>
+		<RESERVED>WIZZARD</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>30</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Mage2_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="B003">
+		<NAME>Grimoire 3</NAME>
+		<RESERVED>WIZZARD</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>100</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Mage3_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="B004">
+		<NAME>Grimoire 4</NAME>
+		<RESERVED>WIZZARD</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>150</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Mage4_Icon</ICON>
+	</WEAPON>
+	<WEAPON ID="B005">
+		<NAME>Grimoire 5</NAME>
+		<RESERVED>WIZZARD</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>255</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Mage5_Icon</ICON>
+	</WEAPON>
+	
+	<!-- ARMORS  -->
+	
+	<ARMOR ID="A001">
+		<NAME>Armure 1</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>10</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Armor1_Icon</ICON>
+	</ARMOR>
+	<ARMOR ID="A002">
+		<NAME>Armure 2</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>50</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Armor2_Icon</ICON>
+	</ARMOR>
+	<ARMOR ID="A003">
+		<NAME>Armure 3</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>100</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Armor3_Icon</ICON>
+	</ARMOR>
+	
+	<!-- ACCESORY  -->
+	
+	<ACCESSORY ID="C001">
+		<NAME>Accessoire 1</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>10</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Acces1_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C006">
+		<NAME>Accessoire 6</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>10</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Acces6_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C011">
+		<NAME>Accessoire 11</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>20</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Acces11_Icon</ICON>
+	</ACCESSORY>
+	
+	<ACCESSORY ID="C002">
+		<NAME>Accessoire 2</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>10</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Acces2_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C007">
+		<NAME>Accessoire 7</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>20</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Acces7_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C012">
+		<NAME>Accessoire 12</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>30</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Acces12_Icon</ICON>
+	</ACCESSORY>
+	
+	
+	<ACCESSORY ID="C003">
+		<NAME>Accessoire 3</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>10</INT>
+		<CHA>0</CHA>
+		<ICON>Acces3_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C008">
+		<NAME>Accessoire 8</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>20</INT>
+		<CHA>0</CHA>
+		<ICON>Acces8_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C013">
+		<NAME>Accessoire 13</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>30</INT>
+		<CHA>0</CHA>
+		<ICON>Acces13_Icon</ICON>
+	</ACCESSORY>
+	
+	
+	<ACCESSORY ID="C004">
+		<NAME>Accessoire 4</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>10</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Acces4_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C009">
+		<NAME>Accessoire 9</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>20</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Acces9_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C014">
+		<NAME>Accessoire 14</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>30</WIL>
+		<INT>0</INT>
+		<CHA>0</CHA>
+		<ICON>Acces14_Icon</ICON>
+	</ACCESSORY>
+	
+	
+	<ACCESSORY ID="C005">
+		<NAME>Accessoire 5</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>10</CHA>
+		<ICON>Acces5_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C010">
+		<NAME>Accessoire 10</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>20</CHA>
+		<ICON>Acces10_Icon</ICON>
+	</ACCESSORY>
+	<ACCESSORY ID="C015">
+		<NAME>Accessoire 15</NAME>
+		<RESERVED>ALL</RESERVED>
+		<LIFE>0</LIFE>
+		<MANA>0</MANA>
+		<STR>0</STR>
+		<CON>0</CON>
+		<WIL>0</WIL>
+		<INT>0</INT>
+		<CHA>30</CHA>
+		<ICON>Acces15_Icon</ICON>
+	</ACCESSORY>
+</data>
